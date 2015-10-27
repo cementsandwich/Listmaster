@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+  <title>test your ng-knowledge</title>
+</head>
+<body>
+
+<div ng-view></div>
+
+<input ng-model="name"> Hello {{ name }}
+
+<!-- Libraries -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-route.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular-resource.min.js"></script>
+<!-- templates -->
+<script src="./Templates/todos.js" type="text/ng-template" id="/todos.html"></script>
+<script src="./Templates/todo.js" type="text/ng-template" id="/todo.html"></script>
+<!-- start -->
+<script src="./angular_start.js"></script>
+
+
+
+</body>
+</html>
